@@ -1,0 +1,6 @@
+nombre=input("Cómo te llamas?")
+lista=list(nombre)
+print("Hola: ", nombre.upper())
+print("Hola: ", nombre.lower())
+edad=int(input("Ingresa tu edad: "))
+print("Tu contraseña es: ", lista[2],(edad*3)/2,lista[0])
